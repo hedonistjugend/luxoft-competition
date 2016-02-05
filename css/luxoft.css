@@ -40,7 +40,13 @@ body {
     color: #fff;
 }
 
+#navbar > ul > li.dropdown > a {
+    color: #000;
+}
 
+#navbar > ul > li.dropdown.open > a {
+     background-color: #fff;
+}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: rgb(254, 165, 48);
@@ -133,6 +139,7 @@ a {
     background-image: -ms-linear-gradient(top, #ffbc35, #ff9933);
     background-image: -o-linear-gradient(top, #ffbc35, #ff9933);
     background-image: linear-gradient(to bottom, #ffbc35, #ff9933);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .btn-primary:hover {
@@ -141,7 +148,8 @@ background-image: -moz-linear-gradient(top, #ff9933, #ffbc35);
 background-image: -ms-linear-gradient(top, #ff9933, #ffbc35);
   background-image: -o-linear-gradient(top, #ff9933, #ffbc35);
   background-image: linear-gradient(to bottom, #ff9933, #ffbc35);
-  text-decoration: none;   
+  text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .btn-ghost {
@@ -182,6 +190,12 @@ ol {
     font-size: 16px;
     line-height: 1,5;
 }
+
+.standart{
+    font-size: 16px;
+    line-height: 1,5;
+}
+
 
 .code {
     font-size: 21px;
